@@ -131,3 +131,4 @@ Liquid.Types = {
   IncrementScope: {},
   DecrementScope: {}
 }
+Liquid.default = Liquid
