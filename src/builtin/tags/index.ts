@@ -4,6 +4,7 @@ import capture from './capture'
 import Case from './case'
 import comment from './comment'
 import include from './include'
+import section from './section'
 import decrement from './decrement'
 import cycle from './cycle'
 import If from './if'
@@ -18,7 +19,7 @@ import Continue from './continue'
 import ITagImplOptions from 'src/template/tag/itag-impl-options'
 
 const tags: { [key: string]: ITagImplOptions } = {
-  assign, 'for': For, capture, 'case': Case, comment, include, decrement, increment, cycle, 'if': If, layout, block, raw, tablerow, unless, 'break': Break, 'continue': Continue
+  assign, 'for': For, capture, 'case': Case, comment, include, section, decrement, increment, cycle, 'if': If, layout, block, raw, tablerow, unless, 'break': Break, 'continue': Continue
 }
 
 export default tags
